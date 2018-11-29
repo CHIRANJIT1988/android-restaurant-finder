@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/duskYellow">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@null"
+        android:layout_margin="60dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/restaurant"/>
+
+    <Button
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:textSize="14sp"
+        android:textColor="@color/myTextPrimaryColor"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:layout_alignParentBottom="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:background="@drawable/round_ui_button_style"
+        android:text="Go Offline" />
+
+</RelativeLayout>

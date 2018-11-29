@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/lightGrey"
+    android:layout_gravity="bottom"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.crystal.crystalrangeseekbar.widgets.BubbleThumbSeekbar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        app:corner_radius="10"
+        app:min_value="500"
+        app:max_value="50000"
+        app:bar_color="#f3cf7e"
+        app:bar_highlight_color="#efbf52"
+        app:left_thumb_color="#ECB028"
+        app:left_thumb_color_pressed="#d49e24"
+        app:data_type="_integer" />
+
+    <TextView
+        android:id="@+id/tv_radius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/myTextPrimaryColor"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:padding="5dp"
+        android:text="Restaurants with in 0.5 km"
+        android:gravity="center_vertical"
+        android:textSize="12sp" />
+
+</LinearLayout>

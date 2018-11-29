@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#ECB028</color>
+    <color name="colorPrimaryDark">#d49e24</color>
+    <color name="colorAccent">#28c9ec</color>
+
+    <color name="myTextPrimaryColor">#212121</color>
+    <color name="myTextSecondaryColor">#727272</color>
+
+
+    <color name="duskYellow">#ECB028</color>
+    <color name="lightGrey">#d3d3d3</color>
+
+    <color name="green">#7ac92e</color>
+    <color name="red">#f00808</color>
+    <color name="grey">#eaeaea</color>
+
+</resources>
